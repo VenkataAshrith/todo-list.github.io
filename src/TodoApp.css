@@ -1,0 +1,103 @@
+/* TodoApp.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1519985176271-adb1088fa94c') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;  /* Light font color for contrast */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .App {
+    text-align: center;
+    margin-top: 50px;
+    background: rgba(0, 0, 0, 0.7);  /* Semi-transparent dark background */
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #fff;  /* Light font color for contrast */
+    
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.9);  /* Light background for list items */
+    color: black;  /* Dark font color for contrast */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  li span {
+    cursor: pointer;
+  }
+  
+  li span.completed {
+    text-decoration: line-through;
+    color: grey;
+  }
+  
+  li button {
+    background-color: #dc3545;
+  }
+  
+  li button:hover {
+    background-color: #c82333;
+  }
+  
+  .filter-buttons {
+    margin-top: 20px;
+  }
+  
+  .filter-buttons button {
+    background-color: #007bff;
+    color: white;  /* Light font color for contrast */
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .filter-buttons button:hover {
+    background-color: #0056b3;
+  }
+  
